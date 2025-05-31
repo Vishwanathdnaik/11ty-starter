@@ -1,10 +1,11 @@
 {
-  "name": "businesspromoter-11ty",
+  "name": "11ty-starter",
   "version": "1.0.0",
+  "description": "A custom Eleventy site with KickstartDS",
   "scripts": {
-    "build": "eleventy"
+    "build": "npx @11ty/eleventy"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+  "dependencies": {
+    "@kickstartds/eleventy-plugin-kickstartds": "^3.0.1"
   }
 }
