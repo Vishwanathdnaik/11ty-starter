@@ -1,44 +1,10 @@
 {
-  "name": "@kickstartds/11ty-starter",
+  "name": "businesspromoter-11ty",
   "version": "1.0.0",
-  "description": "Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on",
-  "main": "index.html",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "build-netlify": "netlify build",
-    "format": "prettier --write .",
-    "test": "tsc --noEmit"
-  },
-  "keywords": [
-    "11ty",
-    "11ty-starter",
-    "eleventy",
-    "eleventy-starter",
-    "eleventy-sample",
-    "11ty-template"
-  ],
-  "license": "(MIT OR Apache-2.0)",
-  "author": {
-    "name": "Jonas Ulrich",
-    "email": "jonas.ulrich@kickstartds.com"
-  },
-  "dependencies": {
-    "@kickstartds/base": "^4.0.2",
-    "@kickstartds/blog": "^4.0.2",
-    "@kickstartds/core": "^4.0.2",
-    "@kickstartds/ds-agency": "^3.6.17"
+    "build": "eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@kickstartds/eleventy-plugin-kickstartds": "^0.0.9",
-    "@types/node": "^18.16",
-    "@types/react": "^18.2.22",
-    "netlify-cli": "^17.5.1",
-    "netlify-plugin-checklinks": "^4.1.1",
-    "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "@11ty/eleventy": "^2.0.1"
   }
 }
