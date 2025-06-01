@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@kickstartds/eleventy-plugin-kickstartds": "^2.1.1"
+    "@kickstartds/eleventy-plugin-kickstartds": "^2.0.0"
   }
 }
