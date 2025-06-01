@@ -1,11 +1,13 @@
 {
   "name": "11ty-starter",
   "version": "1.0.0",
+  "description": "KickstartDS 11ty Starter",
   "scripts": {
+    "start": "eleventy --serve",
     "build": "eleventy"
   },
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@kickstartds/eleventy-plugin-kickstartds": "1.0.2"
+  "devDependencies": {
+    "eleventy": "^2.0.1",
+    "eleventy-plugin-share-this": "^1.0.6"
   }
 }
