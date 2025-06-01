@@ -1,12 +1,11 @@
 {
   "name": "11ty-starter",
   "version": "1.0.0",
-  "description": "Fully working Eleventy site with KickstartDS plugin",
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "build": "eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@kickstartds/eleventy-plugin-kickstartds": "^1.0.0"
+    "@kickstartds/eleventy-plugin-kickstartds": "1.0.2"
   }
 }
